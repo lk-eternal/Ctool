@@ -42,7 +42,9 @@ export default class {
                 return storage;
             },
             push(path: string, query: Record<string, string | number> = {}) {
-                void router.push({ path, query });
+                router.isReady().then(() => {
+                    void router.replace({ path, query });
+                });
             },
         };
 

@@ -5,7 +5,7 @@
     "homepage": "https://github.com/baiy/Ctool",
     "main": "tool.html",
     "version": "##version##",
-    "logo": "icon/icon_utools.png",
+    "logo": "logo.png",
     "pluginSetting": {
         "single": false
     },
